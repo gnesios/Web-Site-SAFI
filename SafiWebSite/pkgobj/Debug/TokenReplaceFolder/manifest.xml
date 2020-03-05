@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="8c6baaa6-139e-4be4-b02c-75563e2a7235" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="SafiWebSite.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="SafiWebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=40b35cc47033a14c" Namespace="SafiWebSite.MenuItems" TypeName="*" />
+        <SafeControl Assembly="SafiWebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=40b35cc47033a14c" Namespace="SafiWebSite.MainSlider" TypeName="*" />
+        <SafeControl Assembly="SafiWebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=40b35cc47033a14c" Namespace="SafiWebSite.FinancialInformation" TypeName="*" />
+        <SafeControl Assembly="SafiWebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=40b35cc47033a14c" Namespace="SafiWebSite.InvestmentSimulator" TypeName="*" />
+        <SafeControl Assembly="SafiWebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=40b35cc47033a14c" Namespace="SafiWebSite.ContactForm" TypeName="*" />
+        <SafeControl Assembly="SafiWebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=40b35cc47033a14c" Namespace="SafiWebSite.ComplaintForm" TypeName="*" />
+        <SafeControl Assembly="SafiWebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=40b35cc47033a14c" Namespace="SafiWebSite.MediaPlayer" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="SafiWebSite_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

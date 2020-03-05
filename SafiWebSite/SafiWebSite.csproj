@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7A76E88E-87C3-4817-801B-8D7FC6A6D75C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SafiWebSite</RootNamespace>
+    <AssemblyName>SafiWebSite</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ComplaintForm\ComplaintForm.ascx.cs">
+      <DependentUpon>ComplaintForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ComplaintForm\ComplaintForm.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ComplaintForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactForm\ContactForm.ascx.cs">
+      <DependentUpon>ContactForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactForm\ContactForm.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ContactForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="FinancialInformation\FinancialInformation.cs" />
+    <Compile Include="InvestmentSimulator\InvestmentSimulator.ascx.cs">
+      <DependentUpon>InvestmentSimulator.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="InvestmentSimulator\InvestmentSimulator.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InvestmentSimulator.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="MainSlider\MainSlider.cs" />
+    <Compile Include="MediaPlayer\MediaPlayer.cs" />
+    <Compile Include="MenuItems\MenuItems.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ComplaintForm\ComplaintForm.webpart" />
+    <None Include="ComplaintForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{00e8a68b-bf88-4943-ac7d-e8d8b08b105b}</SharePointProjectItemId>
+    </None>
+    <None Include="ContactForm\ContactForm.webpart" />
+    <None Include="ContactForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9f74d26e-90f9-46a1-bdf8-d5a0e5f777f1}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{4b7c259e-6e5b-41b0-809e-078f78983323}</FeatureId>
+    </None>
+    <None Include="FinancialInformation\FinancialInformation.webpart" />
+    <None Include="FinancialInformation\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{94140072-5618-4f34-9875-95e365a61e09}</SharePointProjectItemId>
+    </None>
+    <None Include="InvestmentSimulator\InvestmentSimulator.webpart" />
+    <None Include="InvestmentSimulator\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0ee76284-f1bc-4926-aa01-99565f067245}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="MainSlider\MainSlider.webpart" />
+    <None Include="MainSlider\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e154a8d2-5d6f-4aba-9aea-7c86706dd107}</SharePointProjectItemId>
+    </None>
+    <None Include="MediaPlayer\MediaPlayer.webpart" />
+    <None Include="MediaPlayer\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{178953b5-8535-49fa-a254-f9d4c8de3631}</SharePointProjectItemId>
+    </None>
+    <None Include="MenuItems\MenuItems.webpart" />
+    <None Include="MenuItems\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3882d754-f725-4199-b855-9fec9b740dbc}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{8c6baaa6-139e-4be4-b02c-75563e2a7235}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ComplaintForm\ComplaintForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>ComplaintForm.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="ComplaintForm\Elements.xml" />
+    <Content Include="ContactForm\ContactForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>ContactForm.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="ContactForm\Elements.xml" />
+    <Content Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Content>
+    <Content Include="FinancialInformation\Elements.xml" />
+    <Content Include="InvestmentSimulator\Elements.xml" />
+    <Content Include="InvestmentSimulator\InvestmentSimulator.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>InvestmentSimulator.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="MainSlider\Elements.xml" />
+    <Content Include="MediaPlayer\Elements.xml" />
+    <Content Include="MenuItems\Elements.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

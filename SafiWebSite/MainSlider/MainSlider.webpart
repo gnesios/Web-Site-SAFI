@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="SafiWebSite.MainSlider.MainSlider, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Rotador Imágenes</property>
+        <property name="Description" type="string">Rotador de imágenes principal.</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

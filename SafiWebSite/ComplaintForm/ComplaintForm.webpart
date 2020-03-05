@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="SafiWebSite.ComplaintForm.ComplaintForm, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Formulario SAR</property>
+        <property name="Description" type="string">Formulario para el registro de información de reclamos (SAR).</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

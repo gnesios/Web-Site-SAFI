@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="8c6baaa6-139e-4be4-b02c-75563e2a7235" solutionId="8c6baaa6-139e-4be4-b02c-75563e2a7235" resetWebServer="false" sharePointProductVersion="15.0" name="SafiWebSite" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="4b7c259e-6e5b-41b0-809e-078f78983323" />
+  </features>
+</package>

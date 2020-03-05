@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="Habilita las características personalizadas para el sitio de SAFI." Id="5d3b2b05-b931-4822-9955-7cc5eb604804" Scope="Site" Title="SAFI Personalizado">
+  <ElementManifests>
+    <ElementManifest Location="MenuItems\Elements.xml" />
+    <ElementFile Location="MenuItems\MenuItems.webpart" />
+    <ElementManifest Location="MainSlider\Elements.xml" />
+    <ElementFile Location="MainSlider\MainSlider.webpart" />
+    <ElementManifest Location="FinancialInformation\Elements.xml" />
+    <ElementFile Location="FinancialInformation\FinancialInformation.webpart" />
+    <ElementManifest Location="InvestmentSimulator\Elements.xml" />
+    <ElementFile Location="InvestmentSimulator\InvestmentSimulator.webpart" />
+    <ElementManifest Location="ContactForm\Elements.xml" />
+    <ElementFile Location="ContactForm\ContactForm.webpart" />
+    <ElementManifest Location="ComplaintForm\Elements.xml" />
+    <ElementFile Location="ComplaintForm\ComplaintForm.webpart" />
+    <ElementManifest Location="MediaPlayer\Elements.xml" />
+    <ElementFile Location="MediaPlayer\MediaPlayer.webpart" />
+  </ElementManifests>
+</Feature>

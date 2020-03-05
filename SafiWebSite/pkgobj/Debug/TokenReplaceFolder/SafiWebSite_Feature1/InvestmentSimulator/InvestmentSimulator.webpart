@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="SafiWebSite.InvestmentSimulator.InvestmentSimulator, SafiWebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=40b35cc47033a14c" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Simulador de Inversión</property>
+        <property name="Description" type="string">Elemento web para la simulación de inversiones dado un producto y monto.</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

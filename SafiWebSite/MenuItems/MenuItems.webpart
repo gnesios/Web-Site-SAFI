@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="SafiWebSite.MenuItems.MenuItems, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Elementos Menú</property>
+        <property name="Description" type="string">Personalización de los elementos de navegación (menú horizontal).</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

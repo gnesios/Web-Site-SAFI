@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="SafiWebSite.FinancialInformation.FinancialInformation, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Información Financiera</property>
+        <property name="Description" type="string">Información sobre tasas de los productos manejados.</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
